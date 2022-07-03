@@ -26,7 +26,6 @@ When("I assert that I am logged into my account", async () => {
 });
 
 When("I sort the items by price", async () => {
-    // let index = helper.indexForSorting;
     await productsPage.selectSortingType();
 });
 
@@ -63,7 +62,6 @@ When("I assert that I am redirected to Information page", async () => {
 });
 
 When("I fill and confirm my Information", async () => {
-    // let customerInfo = helper.customerInfo;
     await informationPage.confirmMyInfo();
 });
 
